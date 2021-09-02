@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/ismailkhouya/wlossAppClient/static/css/main.027b1139.chunk.css",
-    "main.js": "/ismailkhouya/wlossAppClient/static/js/main.e3bb387d.chunk.js",
-    "main.js.map": "/ismailkhouya/wlossAppClient/static/js/main.e3bb387d.chunk.js.map",
-    "runtime-main.js": "/ismailkhouya/wlossAppClient/static/js/runtime-main.90282169.js",
-    "runtime-main.js.map": "/ismailkhouya/wlossAppClient/static/js/runtime-main.90282169.js.map",
-    "static/css/2.8bde8b43.chunk.css": "/ismailkhouya/wlossAppClient/static/css/2.8bde8b43.chunk.css",
-    "static/js/2.31ec9908.chunk.js": "/ismailkhouya/wlossAppClient/static/js/2.31ec9908.chunk.js",
-    "static/js/2.31ec9908.chunk.js.map": "/ismailkhouya/wlossAppClient/static/js/2.31ec9908.chunk.js.map",
-    "index.html": "/ismailkhouya/wlossAppClient/index.html",
-    "static/css/2.8bde8b43.chunk.css.map": "/ismailkhouya/wlossAppClient/static/css/2.8bde8b43.chunk.css.map",
-    "static/css/main.027b1139.chunk.css.map": "/ismailkhouya/wlossAppClient/static/css/main.027b1139.chunk.css.map",
-    "static/js/2.31ec9908.chunk.js.LICENSE.txt": "/ismailkhouya/wlossAppClient/static/js/2.31ec9908.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/ismailkhouya/wlossAppClient/static/media/business.20c48bc2.png"
+    "main.css": "/wlossAppClient/static/css/main.005793f6.chunk.css",
+    "main.js": "/wlossAppClient/static/js/main.e3bb387d.chunk.js",
+    "main.js.map": "/wlossAppClient/static/js/main.e3bb387d.chunk.js.map",
+    "runtime-main.js": "/wlossAppClient/static/js/runtime-main.a54ca3e8.js",
+    "runtime-main.js.map": "/wlossAppClient/static/js/runtime-main.a54ca3e8.js.map",
+    "static/css/2.8bde8b43.chunk.css": "/wlossAppClient/static/css/2.8bde8b43.chunk.css",
+    "static/js/2.31ec9908.chunk.js": "/wlossAppClient/static/js/2.31ec9908.chunk.js",
+    "static/js/2.31ec9908.chunk.js.map": "/wlossAppClient/static/js/2.31ec9908.chunk.js.map",
+    "index.html": "/wlossAppClient/index.html",
+    "static/css/2.8bde8b43.chunk.css.map": "/wlossAppClient/static/css/2.8bde8b43.chunk.css.map",
+    "static/css/main.005793f6.chunk.css.map": "/wlossAppClient/static/css/main.005793f6.chunk.css.map",
+    "static/js/2.31ec9908.chunk.js.LICENSE.txt": "/wlossAppClient/static/js/2.31ec9908.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/wlossAppClient/static/media/business.20c48bc2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.90282169.js",
+    "static/js/runtime-main.a54ca3e8.js",
     "static/css/2.8bde8b43.chunk.css",
     "static/js/2.31ec9908.chunk.js",
-    "static/css/main.027b1139.chunk.css",
+    "static/css/main.005793f6.chunk.css",
     "static/js/main.e3bb387d.chunk.js"
   ]
 }
