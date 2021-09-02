@@ -1,0 +1,363 @@
+:root {
+    --input-bg-color: #9186f869;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.suggestionSection {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-top: 15px !important;
+}
+
+.giftSection {
+    height: 120px;
+}
+
+.maxWidth100 {
+    max-width: 100% !important;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    /* Firefox */
+    font-size: 1.7vw;
+}
+
+.weightInput {
+    background: url('./assets/icons/business.png') 96% 50% no-repeat;
+    background-size: 2.5vw;
+}
+
+.heightInput {
+    background: url('./assets/icons/cm.png') 96% 50% no-repeat;
+    background-size: 2.5vw;
+}
+
+.sectionWrapper {
+    margin-top: 50vh;
+    width: 100%;
+}
+
+.BMIindicator {
+    height: 32px !important;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end !important;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 9px solid rgb(255, 255, 255);
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(255, 255, 255);
+}
+
+.margin0 {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.indicator {
+    height: 8vw;
+    font-size: 1.5vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.STindicator {
+    background-color: rgb(245, 0, 0);
+}
+
+.MTindicator {
+    background-color: rgb(255, 68, 68);
+}
+
+.MDTindicator {
+    background-color: rgb(255, 144, 144);
+}
+
+.Nindicator {
+    background-color: rgb(39, 196, 39);
+}
+
+.OWTindicator {
+    background-color: rgb(131, 143, 255);
+}
+
+.OC1indicator {
+    background-color: rgb(86, 103, 255);
+}
+
+.OC2indicator {
+    background-color: rgb(32, 55, 255);
+}
+
+.OC3indicator {
+    background-color: rgb(0, 26, 255);
+}
+
+.padding0 {
+    padding: 0 !important;
+    ;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(255, 255, 255);
+}
+
+.App {
+    text-align: center;
+    background-color: #61dafb !important;
+}
+
+body {
+    background-color: #61dafb;
+}
+
+.container {
+    /* height: 100%; */
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.rowPArentr {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.btnConfim:disabled {
+    background-color: rgba(118, 196, 86, 0.6);
+    cursor: no-drop;
+}
+#productsSuggestions{
+    height: 300px;
+
+}
+.checkEmail{
+    padding: 30px;
+    color:green;
+    font-weight: 900;
+}
+
+.EbookPic {
+    background: url(assets/Ebook.png) no-repeat;
+    background-size: 187px;
+    height: 290px;
+    background-position: 50%;
+}
+
+.CallToAction {
+    margin-top: 0;
+    background-color: #1d127873;
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.GiftDescription {
+    height: 300px;
+    /* background-color: rgb(39, 196, 39); */
+}
+
+.GiftDescription>div {
+    padding: 0px;
+    margin-top: 7px;
+    text-align: left;
+}
+
+.GiftPicture {
+    height: 300px;
+    /* background-color: rgb(22, 82, 22); */
+}
+
+.EmailInput {
+    width: 40% !important;
+}
+
+.EmailInputSection {
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.btnConfim {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5vw;
+    color: rgb(255, 255, 255);
+    background-color: rgb(118 196 86);
+    cursor: pointer;
+    border: none;
+    height: 45px;
+    width: 10vw;
+    margin-left: 0.5vw;
+}
+
+.btnNextScore {
+    margin-left: 10px;
+    width: 13vw;
+    height: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 1.4vw;
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 148, 47);
+    cursor: pointer;
+    border: none
+}
+
+.btnNext {
+    margin-left: 10px;
+    width: 8vw;
+    height: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 1.7vw;
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 148, 47);
+    cursor: pointer;
+    border: none
+}
+
+.bentCalculate {
+    width: 89px !important;
+}
+
+.btnPrevious {
+    margin-right: 10px;
+    width: 11vw;
+    height: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 1.7vw;
+    color: rgb(255, 255, 255);
+    background-color: rgba(110, 51, 138, 0.479);
+    cursor: pointer;
+    border: none
+}
+
+.btnNext:disabled {
+    background-color: rgba(59, 75, 59, 0.322);
+    cursor: not-allowed;
+}
+
+.section {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.spanStep {
+    color: white;
+    background-color: #66931ec4;
+    width: 62px;
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+.SectionSteps {
+    position: absolute;
+    left: 3%;
+}
+
+.genderSelect {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.genderSelect>input {
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+.SectionSteps>label {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.inputDate {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border: solid 0.1px green;
+    background-color: var(--input-bg-color);
+    width: 60%;
+    height: 40px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.inputCheck {
+    width: 21px;
+    height: 21px;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
